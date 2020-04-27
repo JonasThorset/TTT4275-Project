@@ -1,8 +1,6 @@
-clear all
-
 x1 = load('class_1', '-ascii');     %setosa
 x2 = load('class_2', '-ascii');     %Versicolour
-x3 = load('class_3', 'ascii');      %Virginica
+x3 = load('class_3', '-ascii');     %Virginica
 
 %% Sepal length
 subplot(2,2,1);
